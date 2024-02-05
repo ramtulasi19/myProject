@@ -25,9 +25,10 @@ export const Home = () => {
       <InfoSection
         image={Image1}
         id="about"
-        subtitle="Mauris tempor interdum"
-        title="Proin condimentum diam"
-        text="In luctus nibh nec metus placerat consectetur. Maecenas odio mi, ullamcorper at porta non, egestas vitae velit. Donec lacinia porta tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec arcu nec diam posuere tincidunt. Nulla dignissim enim id nibh luctus, ullamcorper sagittis eros semper."
+        subtitle="Unleash Your Business's Potential with Nez Labs"
+        title="Our vision"
+        text="
+At Nez Labs, we provide customized solutions that help you leverage the power of technology to drive business growth. Our services include cloud analytics modernization, data science acceleration, and full customer experience service. We pride ourselves on delivering unprecedented velocity with impeccable reliability, enabling you to stay ahead of the curve in today's fast-paced business landscape."
         btnText="Start today"
       />
       <InfoSectionLight

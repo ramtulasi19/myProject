@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from "../components/footer";
-import Signin from "../components/signin";
+import Client from "../components/Forms";
 import { Navbar } from "./../components/navbar";
 import { Sidebar } from "./../components/sidebar";
 
@@ -15,7 +15,7 @@ const SigninPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <Signin />
+      <Client />
       <Footer />
     </>
   );
