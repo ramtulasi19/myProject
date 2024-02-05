@@ -18,6 +18,7 @@ export const InfoWrapper = styled.div `
 `
 
 export const Title = styled.h1 `
+    color: #B05FFD;
     font-weight: 900;
 
 `

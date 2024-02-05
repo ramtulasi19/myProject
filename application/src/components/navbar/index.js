@@ -52,7 +52,7 @@ export const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Contact Us</NavBtnLink>
+            <NavLinks to="guest">Contact Us</NavLinks>
           </NavBtn>
         </NavbarContainer>
       </Nav>
