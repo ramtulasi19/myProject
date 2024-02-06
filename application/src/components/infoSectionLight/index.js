@@ -12,7 +12,7 @@ export const InfoSectionLight =
        image,}) => {
   return (
     <>
-      <InfoContainer id="Accomp" className="bg-white">
+      <InfoContainer id={id} className="bg-white">
         <InfoWrapper>
           <div className="row expand-row gx-5">
             <div className="col-lg-6 col-sm-12 img-wrap">
