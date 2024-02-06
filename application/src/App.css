@@ -102,3 +102,7 @@ textarea {
   padding: 100px 100px;
   color: #a820a8;
 }
+.alert-success{
+  margin-top: 10px;
+  border-radius: 10px;
+}

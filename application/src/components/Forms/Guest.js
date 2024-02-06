@@ -1,16 +1,25 @@
-import React, {useRef} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import emailjs from '@emailjs/browser';
 import {
     SigninContainer, SigninWrapper,
     StyledContactForm
 } from "./GetInTouchElements";
+import {Alert} from "react-bootstrap";
 
 
 const Guest = () => {
 
   const form = useRef();
 
-  const sendEmail = (e) => {
+    const [successful, setSuccessful] = useState(false);
+
+    useEffect(() => {
+        if(successful)
+            setInterval(() => setSuccessful(false), 5000);
+    }, [successful]);
+
+
+    const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
@@ -20,6 +29,7 @@ const Guest = () => {
         .then(
             () => {
               console.log('SUCCESS!');
+              setSuccessful(true)
             },
             (error) => {
               console.log('FAILED...', error.text);
@@ -28,7 +38,8 @@ const Guest = () => {
   };
 
   return (
-      <SigninContainer id="guest">
+      <div >
+      <SigninContainer id="guest" >
           <StyledContactForm>
         <div className="my-auto">
           <h3 className="center-align mb-40">Get in Touch</h3>
@@ -41,10 +52,14 @@ const Guest = () => {
             <textarea name="message"/>
               <input type="submit" value="Send" style={{backgroundColor: '#6b21a8', color: 'white'}}/>
           </form>
+            <div  className= "alert-success">
+            {successful && <Alert className="alert-success">Thank you for your submission, Our Team member will get back to you shortly</Alert>}
+        </div>
         </div>
           </StyledContactForm>
 
       </SigninContainer>
+      </div>
   );
 };
 

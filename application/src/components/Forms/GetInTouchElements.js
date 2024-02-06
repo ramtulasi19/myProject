@@ -1,20 +1,28 @@
 import styled from "styled-components";
 
 export const SigninContainer = styled.div`
-    height: 70vh;
-    background: #000;
-    align-content: center;
-    justify-content: center;
+    min-height: 600px;
     display: flex;
-    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding: 50px 0;
     color: white;
-    padding-top: 20px;
+
+    @media screen and (max-width: 768px) {
+        min-height: 1100px;
+    }
+
+    @media screen and (max-width: 480px) {
+        min-height: 1300px;
+    }
 
 `
 
 export const SigninWrapper = styled.div`
     background: #fff;
-    min-height: 500px;
+    min-height: 700px;
     width: 500px;
     max-width: 90%;
     margin: auto;
