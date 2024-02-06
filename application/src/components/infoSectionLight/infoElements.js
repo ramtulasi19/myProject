@@ -8,6 +8,16 @@ export const InfoContainer = styled.div `
 
 `
 
+export const InfoContainerExp = styled.div `
+    width: 100%;
+    padding-block: 10px;
+    min-height: 500px;    
+    justify-content: center;  
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+`
+
 export const InfoWrapper = styled.div `
     display: flex;
     padding: 80px 0;
