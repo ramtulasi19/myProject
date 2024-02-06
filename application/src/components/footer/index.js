@@ -13,33 +13,18 @@ const Footer = () => {
       <FooterWrapper className="container py-5">
         <div className="row gx-5 px-4 gy-4">
           <div className="col-lg-3 col-sm-6">
-            <FooterH2>About Us</FooterH2>
-            <FooterLink href="#">How it works</FooterLink>
-            <FooterLink href="#">Testimonials</FooterLink>
-            <FooterLink href="#">Careers</FooterLink>
-            <FooterLink href="#">Investors</FooterLink>
-            <FooterLink href="#">Terms of Service</FooterLink>
-          </div>
-          <div className="col-lg-3 col-sm-6">
-            <FooterH2>Contact Us</FooterH2>
-            <FooterLink href="#">Contact</FooterLink>
-            <FooterLink href="#">Support</FooterLink>
-            <FooterLink href="#">Destinations</FooterLink>
-            <FooterLink href="#">Our Locations</FooterLink>
-          </div>
-          <div className="col-lg-3 col-sm-6">
-            <FooterH2>Customers</FooterH2>
-            <FooterLink href="#">Our Customers</FooterLink>
-            <FooterLink href="#">How to reach us</FooterLink>
-            <FooterLink href="#">Video Samples</FooterLink>
-            <FooterLink href="#">Agency</FooterLink>
+            <FooterH2>Nez Labs</FooterH2>
+            <FooterLink href="#">123-456-7890</FooterLink>
+            <FooterLink href="#">info@nezlabs.com</FooterLink>
+            <FooterLink href="#">14550 NE 35 ST</FooterLink>
+            <FooterLink href="#">Bellevue, WA 98007</FooterLink>
           </div>
           <div className="col-lg-3 col-sm-6">
             <FooterH2>Follow Us</FooterH2>
-            <FooterLink href="#">Instagram</FooterLink>
-            <FooterLink href="#">Youtube</FooterLink>
-            <FooterLink href="#">Facebook</FooterLink>
-            <FooterLink href="#">LinkedIn</FooterLink>
+            <FooterLink href="https://www.linkedin.com/company/nezlabs/?viewAsMember=true">LinkedIn</FooterLink>
+          </div>
+          <div>
+            <p>© 2020 Nez Labs.</p>
           </div>
         </div>
         <div className="row">
