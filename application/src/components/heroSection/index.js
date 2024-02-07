@@ -4,12 +4,8 @@ import {
   HeroBg,
   VideoBg,
   HeroContent,
-  HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
 } from "./HeroElements";
-import { ButtonR } from "../ButtonElements";
-import Video from "../../videos/bgvideo.mp4";
+import Video from "../../videos/video2.mp4";
 import "../../App.css";
 
 const HeroSection = () => {
