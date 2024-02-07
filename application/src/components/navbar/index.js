@@ -39,7 +39,7 @@ export const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="vision">Vision</NavLinks>
+              <NavLinks to="about">Vision</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="partners">Partners</NavLinks>
