@@ -13,10 +13,6 @@ const Guest = () => {
 
     const [successful, setSuccessful] = useState(false);
 
-    useEffect(() => {
-        if(successful)
-            setInterval(() => setSuccessful(false), 6000);
-    }, [successful]);
 
 
     const sendEmail = (e) => {
@@ -53,7 +49,7 @@ const Guest = () => {
               <input type="submit" value="Send" style={{backgroundColor: '#6b21a8', color: 'white'}}/>
           </form>
             <div  className= "alert-success">
-            {successful && <Alert className="alert-success">Thank you for your submission, Our Team member will get back to you shortly</Alert>}
+            {successful && <Alert className="alert-success">Thank you. We will get back to you</Alert>}
         </div>
         </div>
           </StyledContactForm>
