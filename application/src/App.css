@@ -98,9 +98,11 @@ textarea {
   border: solid gray 1px;
 }
 .pride{
+  width: 100%;
+  justify-content: center;
   text-align: center;
-  padding: 100px 100px;
-  color: #a820a8;
+  padding: 10px 10px;
+  color: #B05FFD;;
 }
 .alert-success{
   margin-top: 10px;

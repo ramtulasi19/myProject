@@ -15,7 +15,7 @@ const Guest = () => {
 
     useEffect(() => {
         if(successful)
-            setInterval(() => setSuccessful(false), 5000);
+            setInterval(() => setSuccessful(false), 6000);
     }, [successful]);
 
 

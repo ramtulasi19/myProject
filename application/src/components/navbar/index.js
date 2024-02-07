@@ -42,7 +42,7 @@ export const Navbar = ({ toggle }) => {
               <NavLinks to="about">Vision</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Partners</NavLinks>
+              <NavLinks to="partners">Partners</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="services">Services</NavLinks>
