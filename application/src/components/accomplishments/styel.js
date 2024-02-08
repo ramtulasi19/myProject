@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AccompContainer = styled.div`
-    min-height: 500px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
