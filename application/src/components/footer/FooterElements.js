@@ -5,16 +5,20 @@ export const FooterContainer = styled.div`
     justify-content: space-between;
     align-items: baseline;
     padding-top: 10px;
+    padding-left: 10px;
     padding-bottom: 10px;
     background: white;
 
     @media screen and (max-width: 768px) {
-        min-height: 1100px;
+       
+        flex-direction: column;
     }
 
     @media screen and (max-width: 480px) {
-        min-height: 1300px;
+      
+        flex-direction: column;
     }
+
 
 `
 
@@ -30,7 +34,6 @@ export const FooterH2 = styled.h2`
 `
 
 export const FooterLink = styled.a`
-    padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 0.9rem;

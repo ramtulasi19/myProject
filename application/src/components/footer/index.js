@@ -1,8 +1,8 @@
 import React from "react";
 import {
-  FooterContainer,
-  FooterH2,
-  FooterLink,
+    FooterContainer,
+    FooterH2,
+    FooterLink, FooterWrapper,
 } from "./FooterElements";
 import "./../../App.css";
 import Icon17 from "../../images/LI-Logo.png"
@@ -22,7 +22,6 @@ const Footer = () => {
                   <img src={Icon17} style={{width: '100px', height: 'auto'}} alt="Logo"/>
               </a>
           </div>
-
       </FooterContainer>
   );
 };
