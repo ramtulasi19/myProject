@@ -24,7 +24,7 @@ const Footer = () => {
             <FooterLink href="https://www.linkedin.com/company/nezlabs/?viewAsMember=true">LinkedIn</FooterLink>
           </div>
           <div>
-            <p>© 2020 Nez Labs.</p>
+            <p>Copyright 2021 Nez Labs, LLC</p>
           </div>
         </div>
         <div className="row">
