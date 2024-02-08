@@ -3,37 +3,27 @@ import {
   FooterContainer,
   FooterH2,
   FooterLink,
-  FooterWrapper,
 } from "./FooterElements";
 import "./../../App.css";
+import Icon17 from "../../images/LI-Logo.png"
 
 const Footer = () => {
   return (
-    <FooterContainer>
-      <FooterWrapper className="container py-5">
-        <div className="row gx-5 px-4 gy-4">
+      <FooterContainer>
           <div className="col-lg-3 col-sm-6">
-            <FooterH2>Nez Labs</FooterH2>
-            <FooterLink>123-456-7890</FooterLink>
-            <FooterLink href="mailto:info@nezlabs.com">info@nezlabs.com</FooterLink>
-            <FooterLink>14550 NE 35 ST</FooterLink>
-            <FooterLink>Bellevue, WA 98007</FooterLink>
+              <FooterLink href="mailto:info@nezlabs.com">info@nezlabs.com</FooterLink>
+          </div>
+          <div className= "col-lg-3 col-sm-6">
+              <p>Copyright 2021 Nez Labs, LLC</p>
           </div>
           <div className="col-lg-3 col-sm-6">
-            <FooterH2>Follow Us</FooterH2>
-            <FooterLink href="https://www.linkedin.com/company/nezlabs/?viewAsMember=true">LinkedIn</FooterLink>
+              <FooterH2>Follow Us</FooterH2>
+              <a href="https://www.linkedin.com/company/nezlabs/?viewAsMember=true">
+                  <img src={Icon17} style={{width: '100px', height: 'auto'}} alt="Logo"/>
+              </a>
           </div>
-          <div>
-            <p>Copyright 2021 Nez Labs, LLC</p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12 mt-5 ">
-            <h1 className="logo-text gray-text center-align">- Nez Labs -</h1>
-          </div>
-        </div>
-      </FooterWrapper>
-    </FooterContainer>
+
+      </FooterContainer>
   );
 };
 
