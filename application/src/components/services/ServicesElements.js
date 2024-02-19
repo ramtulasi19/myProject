@@ -105,6 +105,7 @@ export const ServicesH2 = styled.h2`
 `
 
 export const ServicesP = styled.p`
+    color: black;
     font-size: 1rem;
     text-align: center;
 
