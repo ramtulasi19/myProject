@@ -12,20 +12,20 @@ export const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="about" onClick={toggle}>
                         vision
                     </SidebarLink>
-                    <SidebarLink to="Partner" onClick={toggle}>
+                    <SidebarLink to="partners" onClick={toggle}>
                         Partners
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>
                         Services
                     </SidebarLink>
-                    <SidebarLink to="Accomplishments" onClick={toggle}>
+                    <SidebarLink to="accomp" onClick={toggle}>
                         Accomplishments
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="guest" onClick={toggle}>
+                    <SidebarLink to="guest" onClick={toggle}>
                         Contact Us
-                    </SidebarRoute>
+                    </SidebarLink>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

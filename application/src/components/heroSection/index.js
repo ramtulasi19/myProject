@@ -5,7 +5,7 @@ import {
   VideoBg,
   HeroContent,
 } from "./HeroElements";
-import Video from "../../videos/video2.mp4";
+import Video from "../../videos/bgvideo.mp4";
 import "../../App.css";
 
 const HeroSection = () => {
@@ -18,7 +18,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-            <video type="video/mp4" autoPlay loop muted playsInline src= {Video} ></video>
+            <video width="1920" height="1080" type="video/mp4" autoPlay loop muted playsInline src= {Video} ></video>
       </HeroBg>
       <HeroContent>
         <h1 className="h1-hero">Nez Labs</h1>
