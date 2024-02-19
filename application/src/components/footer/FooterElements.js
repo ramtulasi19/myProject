@@ -27,7 +27,7 @@ export const FooterWrapper = styled.div`
 `
 
 export const FooterH2 = styled.h2`
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     color: black;
     font-weight: 500;
 
