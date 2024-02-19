@@ -50,7 +50,7 @@ export const ServicesCard = styled.div`
     align-items: center;
     border-radius: 10px;
     max-height: 500px;
-    padding: 30px;
+    padding: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
@@ -97,10 +97,12 @@ export const ServicesH1 = styled.h1`
 `
 
 export const ServicesH2 = styled.h2`
-    position: inherit;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+    
+    position: relative;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
     font-weight: 900;
+    text-align: center;
     
 `
 
