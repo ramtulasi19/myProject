@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-3 col-sm-6">
               <FooterH2>Follow Us</FooterH2>
-              <a href="https://www.linkedin.com/company/nezlabs/?viewAsMember=true">
+              <a href="https://www.linkedin.com/company/nezlabs/?viewAsMember=true" target="_blank">
                   <img src={Icon17} style={{width: '100px', height: 'auto'}} alt="Logo"/>
               </a>
           </div>
